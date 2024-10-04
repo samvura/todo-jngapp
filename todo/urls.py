@@ -10,4 +10,6 @@ urlpatterns = [
     path('mark_incomplete/<int:pk>/', views.mark_incomplete, name='mark_incomplete'),
     # Edit Feature
     path('edit_task/<int:pk>/', views.edit_task, name='edit_task'),
+    # Delete task
+    path('delete_task/<int:pk>/', views.delete_task, name='delete_task'),
 ]
